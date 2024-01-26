@@ -1,0 +1,153 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+
+    min-width: 100vw;
+    max-width: fit-content;
+
+    background-image: url("https://img.freepik.com/vector-premium/pizarra-calle-publicitaria-restaurante_600765-8301.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    min-height: 100vh;
+    max-height: fit-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.menu{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+h1{
+
+    text-align: center;
+    padding: 1% 0;
+    color: white;
+    text-shadow: -1px -1px black, 1px 1px black;
+
+}
+
+.acordeon{
+
+    width: 95%;
+    margin: 2% auto;
+    padding-bottom: 1%;
+    
+
+}
+
+.acordeon .toggle{
+
+    outline: 2px solid red ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5%;
+    background-color: rgba(255, 255, 255, 0.412);
+}
+
+.acordeon .toggle:hover{
+
+    background-color: rgba(255, 255, 255, 0.792);
+
+}
+
+
+.btn{
+
+    margin: 0.5% 1%;
+    width: 15px;
+    height: 15px;
+    background-image: url("https://cdn-icons-png.flaticon.com/128/56/56747.png");
+    background-size: cover;
+
+}
+
+.acordeon.load .btn{
+
+rotate: 180deg;
+
+}
+
+.acordeon.load{
+
+    
+    outline: 2px solid red ;
+    /* background-color: rgba(255, 255, 255, 0.792); */
+    background-color: rgba(255, 255, 255, 0.601);
+
+}
+
+.acordeon h3{
+
+    text-align: center;
+
+}
+
+.acordeon .box{
+
+    display: none;
+
+}
+
+.acordeon.load .box{
+    margin: 1% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 30%;
+}
+
+.ele{
+    text-align: center;
+    padding: 0 1%;
+    margin: 0 auto;
+    max-width: 220px;
+    height: 100%;
+
+}
+
+.ele img{
+
+    max-width: 150px;
+    min-width: 120px;
+    max-height: 150px; 
+    min-height: 120px;
+    object-fit: cover;
+}
+
+@media (max-width : 750px) {
+    
+    .box{
+
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .ele{
+
+        padding: 2% 0;
+
+    }
+
+}

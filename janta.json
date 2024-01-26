@@ -1,0 +1,37 @@
+[
+    {
+
+        "nome":"Cuscuz com jabá",
+        "preco":25.00,
+        "img":"https://i.pinimg.com/originals/2c/b5/c0/2cb5c0279d1306b18b67b831848a7726.jpg"
+
+    },
+
+    {
+        "nome":"Tapioca(Carne seca, Carne moida, Queijo, Romeu e julieta,mista)",
+        "preco":20.00,
+        "img":"https://www.receiteria.com.br/wp-content/uploads/receitas-de-tapioca.png"
+    },
+
+    {
+        "nome":"Macaxeira(Carne cozida/frita, galinha cozida)",
+        "preco":30.00,
+        "img":"https://th.bing.com/th/id/OIP.gE-9HjOv4Epf-P0aQE905wHaE8?w=250&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+    },
+
+    {
+        "nome":"Prato vegano",
+        "preco":25.00,
+        "img":"https://th.bing.com/th/id/OIP.trgvc8x9hAO3VSs7z5Q9XwAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+        "nome":"Macarronada",
+        "preco":20.00,
+        "img":"https://anoteareceita.com.br/wp-content/uploads/2020/01/receitas-de-macarronada-1-e1579558840311.jpeg"
+    },
+    {
+        "nome":"Hamburguer artesanal",
+        "preco":20.00,
+        "img":"https://boomi.com.br/wp-content/uploads/2021/05/CA035.jpg"
+    }
+]

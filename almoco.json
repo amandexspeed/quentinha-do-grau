@@ -1,0 +1,35 @@
+[
+    {
+     "nome":"Prato tradicional com frango",
+     "preco":20.00,
+     "img":"https://th.bing.com/th/id/R.95e61abc6738078b80cd56ac0bd572cc?rik=Z0dfwrbDO85VtQ&pid=ImgRaw&r=0"
+    },
+
+    {
+        "nome":"Prato tradicional com carne frita",
+        "preco":20.00,
+        "img":"https://th.bing.com/th/id/OIP.NLau7JMndKMDw5xCDxDBZQHaG2?w=192&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+    },
+
+    {
+        "nome":"Churrasco",
+        "preco":40.00,
+        "img":"https://th.bing.com/th/id/R.fb37e01b644a153688aa892aa71eca27?rik=RF5IBvVeEJu3vQ&pid=ImgRaw&r=0"
+    },
+
+    {
+        "nome":"Prato vegano",
+        "preco":25.00,
+        "img":"https://th.bing.com/th/id/OIP.5yJZuFF1GjSABIbOZzbLDAHaF7?w=250&h=201&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+    },
+    {
+        "nome":"Macarronada",
+        "preco":20.00,
+        "img":"https://anoteareceita.com.br/wp-content/uploads/2020/01/receitas-de-macarronada-1-e1579558840311.jpeg"
+    },
+    {
+        "nome":"Feijão tropeiro",
+        "preco":30.00,
+        "img":"https://th.bing.com/th/id/OIP.eA5R7Mk1x-arBTgz-4PaSQHaEK?rs=1&pid=ImgDetMain"
+    }
+]
